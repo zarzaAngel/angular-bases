@@ -3,8 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  //styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'bases';
+  //title = 'bases';
+  public title: string = 'Mi Primera App de Angular';
+
 }
